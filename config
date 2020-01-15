@@ -73,6 +73,13 @@ bindsym $mod+p                  exec evince ~/Documents/book.pdf
 # open gnome calculator
 bindsym $mod+m                  exec gnome-calculator,
 
+# move ws between screens
+bindsym $mod+Prior exec i3-msg move workspace to output left
+bindsym $mod+Next exec i3-msg move workspace to output right
+bindsym $mod+Shift+Prior exec i3-msg move workspace to output up
+bindsym $mod+Shift+Next exec i3-msg move workspace to output down
+
+
 # toggle currently selected window
 bindsym $mod+bracketright	exec --no-startup-id exec i3-msg border pixel 6
 bindsym --release $mod+bracketright	exec --no-startup-id exec i3-msg border pixel 0
