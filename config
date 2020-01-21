@@ -117,8 +117,8 @@ bindsym $mod+Shift+l move right
 bindsym $mod+BackSpace split toggle
 
 # enter fullscreen mode for the focused container
-# bindsym $mod+f fullscreen toggle
-bindsym $mod+f split v; focus parent; fullscreen toggle; focus child
+bindsym $mod+f fullscreen toggle
+# bindsym $mod+f split v; focus parent; fullscreen toggle; focus child
 
 # change gaps interactively
 bindsym $mod+minus gaps inner current minus 3
