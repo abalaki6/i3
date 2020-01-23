@@ -47,7 +47,8 @@ hide_edge_borders smart
 bindsym $mod+Return exec $terminal_path
 
 # start a web browser
-bindsym $mod+Shift+Return exec /usr/bin/sensible-browser
+bindsym $mod+Shift+Return exec firefox || /usr/bin/sensible-browser
+
 
 # kill focused window
 bindsym $mod+q kill
